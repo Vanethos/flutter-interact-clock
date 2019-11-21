@@ -30,15 +30,17 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      backgroundColor: Color(0xFF212121),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
               "${_date.hour}:${_date.second}",
+              style: TextStyle(
+                  fontSize: 90,
+                  color: Colors.lightGreen,
+                  fontWeight: FontWeight.bold),
             ),
           ],
         ),

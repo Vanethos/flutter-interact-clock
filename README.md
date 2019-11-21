@@ -1,16 +1,5 @@
 # flutter_interact_clock
 
-A new Flutter project.
+An example app showing how we can do a Clock using Flutter
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Simulator Screen Shot - iPhone 6s - 2019-11-21 at 13 52 44](https://user-images.githubusercontent.com/10728633/69327016-4a3e0f00-0c66-11ea-8c15-ec76d86b87eb.png)

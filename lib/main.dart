@@ -65,20 +65,13 @@ class _MyHomePageState extends State<MyHomePage> {
   void _updateTime() {
     setState(() {
       _date = DateTime.now();
-      // Update once per minute. If you want to update every second, use the
-      // following code.
+      // Update once per minute.
       _timer = Timer(
         Duration(minutes: 1) -
             Duration(seconds: _date.second) -
             Duration(milliseconds: _date.millisecond),
         _updateTime,
       );
-      // Update once per second, but make sure to do it at the beginning of each
-      // new second, so that the clock is accurate.
-      // _timer = Timer(
-      //   Duration(seconds: 1) - Duration(milliseconds: _dateTime.millisecond),
-      //   _updateTime,
-      // );
     });
   }
 

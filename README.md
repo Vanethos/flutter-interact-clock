@@ -2,4 +2,4 @@
 
 An example app showing how we can do a Clock using Flutter
 
-![Simulator Screen Shot - iPhone 6s - 2019-11-21 at 13 52 44](https://user-images.githubusercontent.com/10728633/69327016-4a3e0f00-0c66-11ea-8c15-ec76d86b87eb.png)
+![pointer_animation](https://user-images.githubusercontent.com/10728633/70415355-db3e2400-1a75-11ea-8547-7ee29cb29a67.gif)
